@@ -79,3 +79,4 @@ if btnpressed:
         st.subheader(f"Here's {number_of_recc} Movie Recommendations:")
         for i in recommendations:
             st.write(i)
+#https://developer.themoviedb.org/reference/movie-details FOR FUTURE API USES
