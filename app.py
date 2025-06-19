@@ -20,7 +20,7 @@ def recomend(movie,number=5):
 
 
     for j in movies_list:
-        movie_id=i[0]
+        movie_id=j[0]
         #Fetch poster from API
         recommended_movies.append(movies.iloc[j[0]].original_title)
 
@@ -79,3 +79,6 @@ if btnpressed:
         st.subheader(f"Here's {number_of_recc} Movie Recommendations:")
         for i in recommendations:
             st.write(i)
+
+
+#https://developer.themoviedb.org/reference/movie-details FOR API PURPOSES
