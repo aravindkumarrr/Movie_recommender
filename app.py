@@ -21,6 +21,7 @@ def recomend(movie,number=5):
 
     for j in movies_list:
         movie_id=j[0]
+        movie_id=j[0]
         #Fetch poster from API
         recommended_movies.append(movies.iloc[j[0]].original_title)
 
